@@ -17,8 +17,11 @@ class ValidaFormulario {
 
     if(camposValidos && senhasValidas) {
       alert('Formulário enviado.');
-      this.formulario.submit();
+      this.formulario.reset();
+       
     }
+
+
   }
 
   senhasSaoValidas() {
@@ -104,5 +107,7 @@ class ValidaFormulario {
     campo.insertAdjacentElement('afterend', div);
   }
 }
+
+
 
 const valida = new ValidaFormulario();
