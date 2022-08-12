@@ -1,3 +1,3 @@
 # Formulario
 
-Aqui está p projeto:  https://dherikcamargo.github.io/Formulario/
+Aqui está o projeto:  https://dherikcamargo.github.io/Formulario/
